@@ -156,6 +156,9 @@ header {
 header nav a {
   text-decoration: none;
   color: lightblue;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 20px;
 }
 section div {
   margin: 20px;
@@ -199,23 +202,34 @@ section .top-section div h2 {
 }
 section .top-section div p {
   font-family: 'Patrick Hand', cursive;
-  font-size: 1.1em;
+  font-size: 1.2em margin: 20px; padding: 20px;;
 }
 section .top-section .stuff p {
   border: 1px solid lightgray;
   margin: 5px;
   padding: 5px;
 }
+section .bottom-section {
+  display: flex;
+  justify-content: center;
+}
 section .bottom-section h2 {
   font-family: 'Liu Jian Mao Cao', cursive;
   font-size: 2.5em;
 }
-section .bottom-section #work {
+section .bottom-section table {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1em;
+  margin: 10px;
   border: 1px solid #ddd;
   padding: 8px;
 }
 section .bottom-section tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+section .bottom-section td {
+  margin: 20px;
+  padding: 20px;
 }
 footer {
   display: flex;

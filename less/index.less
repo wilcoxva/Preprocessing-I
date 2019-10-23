@@ -83,9 +83,12 @@ header {
 	display: flex;
 	justify-content: flex-end;
 	nav {
+
 		a {
 			text-decoration: none;
 			color: @primary-color;
+			font-size: 1.5em;
+			.spacing();
 		}
 		
 	}
@@ -138,7 +141,8 @@ section {
 
 			p {
 				font-family: @body-font;
-				font-size: 1.1em
+				font-size: 1.2em
+				.spacing();
 			}
 		}
 
@@ -156,17 +160,27 @@ section {
 
 	.bottom-section {
 
+		.center();
+
 		h2 {
 			font-family: @heading-font;
 			font-size: 2.5em;
 		}
 
-		#work {
+		table {
+
+			font-family: @body-font;
+			font-size: 1.1em;
+			margin: 10px;
 
 			border: 1px solid #ddd;
 			padding: 8px;
 					}
 			tr:nth-child(even){background-color: #f2f2f2;}
+
+			td {
+				.spacing();
+			}
 	}
 }
 
