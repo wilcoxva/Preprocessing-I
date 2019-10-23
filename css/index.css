@@ -135,8 +135,13 @@ table {
   margin: 20px;
   padding: 20px;
 }
+.min-spacing {
+  margin: 5px;
+  padding: 5px;
+}
 * {
   box-sizing: border-box;
+  font-size: 10px;
 }
 html,
 body {
@@ -148,6 +153,10 @@ header {
   margin: 20px;
   padding: 20px;
 }
+header nav a {
+  text-decoration: none;
+  color: lightblue;
+}
 section div {
   margin: 20px;
   padding: 20px;
@@ -155,9 +164,51 @@ section div {
 section .profile {
   background-color: lightblue;
 }
+section .profile img {
+  height: 25%;
+  width: 25%;
+}
+section .profile h1 {
+  font-size: 3.5em;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: white;
+}
+section .profile h2 {
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 20px;
+}
+section .profile p {
+  font-family: 'Patrick Hand', cursive;
+  color: #1d1d1d;
+  margin: 5px;
+  padding: 5px;
+}
 section .top-section {
   display: flex;
   justify-content: center;
+}
+section .top-section div {
+  width: 50%;
+}
+section .top-section div h2 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2.5em;
+}
+section .top-section div p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1em;
+}
+section .top-section .stuff p {
+  border: 1px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+}
+section .bottom-section h2 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2.5em;
 }
 section .bottom-section #work {
   border: 1px solid #ddd;
