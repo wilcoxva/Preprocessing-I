@@ -131,6 +131,10 @@ section {
 	.top-section {
 		.center();
 		
+		@media (max-width: 500px) {
+			display: block;
+		}
+
 		div {
 			width: 50%;
 
@@ -144,11 +148,13 @@ section {
 				font-size: 1.2em
 				.spacing();
 			}
+
+			@media (max-width: 500px) {
+				width: 100%;
+			}
 		}
 
 		.stuff {
-
-
 
 			p {
 			border: 1px solid lightgray;
@@ -180,7 +186,11 @@ section {
 
 			td {
 				.spacing();
-			}
+		}
+
+		@media (max-width: 500) {
+			display: block;
+		}
 	}
 }
 

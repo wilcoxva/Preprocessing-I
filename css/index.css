@@ -193,6 +193,11 @@ section .top-section {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  section .top-section {
+    display: block;
+  }
+}
 section .top-section div {
   width: 50%;
 }
@@ -203,6 +208,11 @@ section .top-section div h2 {
 section .top-section div p {
   font-family: 'Patrick Hand', cursive;
   font-size: 1.2em margin: 20px; padding: 20px;;
+}
+@media (max-width: 500px) {
+  section .top-section div {
+    width: 100%;
+  }
 }
 section .top-section .stuff p {
   border: 1px solid lightgray;
@@ -230,6 +240,11 @@ section .bottom-section tr:nth-child(even) {
 section .bottom-section td {
   margin: 20px;
   padding: 20px;
+}
+@media (max-width: 500) {
+  section .bottom-section {
+    display: block;
+  }
 }
 footer {
   display: flex;
