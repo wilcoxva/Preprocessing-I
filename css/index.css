@@ -132,8 +132,8 @@ table {
   justify-content: center;
 }
 .spacing {
-  margin: 5px;
-  padding: 5px;
+  margin: 20px;
+  padding: 20px;
 }
 * {
   box-sizing: border-box;
@@ -141,4 +141,32 @@ table {
 html,
 body {
   height: 100%;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+}
+section div {
+  margin: 20px;
+  padding: 20px;
+}
+section .profile {
+  background-color: lightblue;
+}
+section .top-section {
+  display: flex;
+  justify-content: center;
+}
+section .bottom-section #work {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+section .bottom-section tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+footer {
+  display: flex;
+  justify-content: center;
 }

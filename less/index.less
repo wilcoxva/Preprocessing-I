@@ -49,7 +49,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-@primary-color: blue;
+@primary-color: lightblue;
 @font: Times;
 
 .center {
@@ -58,8 +58,8 @@ table {
 }
 
 .spacing {
-	margin: 5px;
-	padding: 5px;
+	margin: 20px;
+	padding: 20px;
 }
 
 * {
@@ -70,3 +70,35 @@ html, body {
 	height: 100%;
 }
 
+header {
+	display: flex;
+	justify-content: flex-end;
+
+	.spacing();
+}
+
+section {
+	div {
+		.spacing();
+	}
+
+	.profile {
+		background-color: @primary-color;
+	}
+
+	.top-section {
+		.center();
+	}
+
+	.bottom-section {
+		#work {
+			border: 1px solid #ddd;
+			padding: 8px;
+					}
+			tr:nth-child(even){background-color: #f2f2f2;}
+	}
+}
+
+footer {
+	.center();
+}
