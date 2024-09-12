@@ -1,1 +1,252 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+.center {
+  display: flex;
+  justify-content: center;
+}
+.spacing {
+  margin: 20px;
+  padding: 20px;
+}
+.min-spacing {
+  margin: 5px;
+  padding: 5px;
+}
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 20px;
+}
+header nav a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 20px;
+}
+section div {
+  margin: 20px;
+  padding: 20px;
+}
+section .profile {
+  background-color: lightblue;
+}
+section .profile img {
+  height: 25%;
+  width: 25%;
+}
+section .profile h1 {
+  font-size: 3.5em;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: white;
+}
+section .profile h2 {
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 20px;
+}
+section .profile p {
+  font-family: 'Patrick Hand', cursive;
+  color: #1d1d1d;
+  margin: 5px;
+  padding: 5px;
+}
+section .top-section {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  section .top-section {
+    display: block;
+  }
+}
+section .top-section div {
+  width: 50%;
+}
+section .top-section div h2 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2.5em;
+}
+section .top-section div p {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.2em margin: 20px; padding: 20px;;
+}
+@media (max-width: 500px) {
+  section .top-section div {
+    width: 100%;
+  }
+}
+section .top-section .stuff p {
+  border: 1px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+}
+section .bottom-section {
+  display: flex;
+  justify-content: center;
+}
+section .bottom-section h2 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2.5em;
+}
+section .bottom-section table {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.1em;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+section .bottom-section tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+section .bottom-section td {
+  margin: 20px;
+  padding: 20px;
+}
+@media (max-width: 500) {
+  section .bottom-section {
+    display: block;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
